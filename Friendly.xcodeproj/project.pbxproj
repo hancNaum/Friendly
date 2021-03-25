@@ -35,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3218EC5B26020EDA006CC7DD /* Friendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3218EC5E26020EDA006CC7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3218EC6026020EDA006CC7DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3218EC6226020EDA006CC7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +42,13 @@
 		3218EC6726020EDF006CC7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3218EC6A26020EDF006CC7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3218EC6C26020EDF006CC7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3218EC7126020EDF006CC7DD /* FriendlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3218EC7526020EDF006CC7DD /* FriendlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyTests.swift; sourceTree = "<group>"; };
 		3218EC7726020EDF006CC7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3218EC7C26020EDF006CC7DD /* FriendlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3218EC8026020EDF006CC7DD /* FriendlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyUITests.swift; sourceTree = "<group>"; };
 		3218EC8226020EDF006CC7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		325E56E9260C8A5F006297AE /* Friendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Friendly.app; path = "/Users/hanc/Documents/GitHub/Friendly/build/Debug-iphoneos/Friendly.app"; sourceTree = "<absolute>"; };
+		325E56EA260C8A5F006297AE /* FriendlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FriendlyTests.xctest; path = "/Users/hanc/Documents/GitHub/Friendly/build/Debug-iphoneos/FriendlyTests.xctest"; sourceTree = "<absolute>"; };
+		325E56EB260C8A5F006297AE /* FriendlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FriendlyUITests.xctest; path = "/Users/hanc/Documents/GitHub/Friendly/build/Debug-iphoneos/FriendlyUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,18 +82,7 @@
 				3218EC5D26020EDA006CC7DD /* Friendly */,
 				3218EC7426020EDF006CC7DD /* FriendlyTests */,
 				3218EC7F26020EDF006CC7DD /* FriendlyUITests */,
-				3218EC5C26020EDA006CC7DD /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		3218EC5C26020EDA006CC7DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3218EC5B26020EDA006CC7DD /* Friendly.app */,
-				3218EC7126020EDF006CC7DD /* FriendlyTests.xctest */,
-				3218EC7C26020EDF006CC7DD /* FriendlyUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		3218EC5D26020EDA006CC7DD /* Friendly */ = {
@@ -145,7 +134,7 @@
 			);
 			name = Friendly;
 			productName = Friendly;
-			productReference = 3218EC5B26020EDA006CC7DD /* Friendly.app */;
+			productReference = 325E56E9260C8A5F006297AE /* Friendly.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3218EC7026020EDF006CC7DD /* FriendlyTests */ = {
@@ -163,7 +152,7 @@
 			);
 			name = FriendlyTests;
 			productName = FriendlyTests;
-			productReference = 3218EC7126020EDF006CC7DD /* FriendlyTests.xctest */;
+			productReference = 325E56EA260C8A5F006297AE /* FriendlyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3218EC7B26020EDF006CC7DD /* FriendlyUITests */ = {
@@ -181,7 +170,7 @@
 			);
 			name = FriendlyUITests;
 			productName = FriendlyUITests;
-			productReference = 3218EC7C26020EDF006CC7DD /* FriendlyUITests.xctest */;
+			productReference = 325E56EB260C8A5F006297AE /* FriendlyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +204,7 @@
 				Base,
 			);
 			mainGroup = 3218EC5226020EDA006CC7DD;
-			productRefGroup = 3218EC5C26020EDA006CC7DD /* Products */;
+			productRefGroup = 3218EC5226020EDA006CC7DD;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

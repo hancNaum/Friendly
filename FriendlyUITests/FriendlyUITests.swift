@@ -29,6 +29,9 @@ class FriendlyUITests: XCTestCase {
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let i = 0
+        XCTAssert(i==0, "I should allways be 0")
     }
 
     func testLaunchPerformance() throws {

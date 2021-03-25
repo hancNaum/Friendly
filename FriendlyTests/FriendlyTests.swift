@@ -21,6 +21,9 @@ class FriendlyTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let i = 0
+        XCTAssert(i==0, "I should allways be 0")
     }
 
     func testPerformanceExample() throws {
@@ -29,5 +32,4 @@ class FriendlyTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }
