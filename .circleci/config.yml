@@ -20,9 +20,9 @@ jobs:
             SCAN_SCHEME: Friendly
 
       - store_test_results:
-          path: output/scan
+          path: test-results
       - store_artifacts:
-          path: output
+          path: test-results
 
   swiftlint:
     docker:
