@@ -21,7 +21,7 @@ class FriendlyUITests: XCTestCase {
         app.launch()
 
         let index = 0
-        XCTAssert(index == 0, "i allways should be 0")
+        XCTAssert(index == 0, "index allways should be 0")
     }
 
     func testLaunchPerformance() throws {
