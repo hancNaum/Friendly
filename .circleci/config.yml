@@ -20,9 +20,11 @@ jobs:
             SCAN_SCHEME: Friendly
 
       - store_test_results:
-          path: result.xml
+          path: ~/test-results
       - store_artifacts:
-          path: result.xml
+          path: ~/test-results/rspec
+          destination: test-results
+
 
   swiftlint:
     docker:
