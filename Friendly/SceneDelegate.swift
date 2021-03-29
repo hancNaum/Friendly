@@ -25,7 +25,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneWillResignActive(_ scene: UIScene) {
     }
 
-    func sceneWillEnterForeground(_ scene: UIScene) {       
+    func sceneWillEnterForeground(_ scene: UIScene) {
+        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {
